@@ -422,12 +422,12 @@ while running:
                 refresh = True
                 p.lives -= 1
                 click_snd.play()
-            if pos_x > 0 and pos_x < 50 and pos_y > 0 and pos_y < 50:
-                print('slword')
-                TIME_DELTA = 0.5
-            if pos_x > WIDTH - 50 and pos_x < WIDTH and pos_y > HEIGHT - 50 and pos_y < HEIGHT:
-                TIME_DELTA = 1.5
-                print('fast')
+#             if pos_x > 0 and pos_x < 50 and pos_y > 0 and pos_y < 50:
+#                 print('slword')
+#                 TIME_DELTA = 0.5                                                              ####CHNAGE TIME DELTA
+#             if pos_x > WIDTH - 50 and pos_x < WIDTH and pos_y > HEIGHT - 50 and pos_y < HEIGHT:
+#                 TIME_DELTA = 1.5
+#                 print('fast')
     update()
     draw()
 pg.quit()
