@@ -1,0 +1,4 @@
+certifi==2021.10.8
+numpy @ file:///D:/bld/numpy_1636145505783/work
+pygame==2.0.3
+wincertstore==0.2
